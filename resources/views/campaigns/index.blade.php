@@ -79,16 +79,16 @@
                     <td>{{ $campaign->name }}</td>
                     <td>{{ $campaign->brand->name }}</td>
                     <td>
-                        {{-- # of impressions in date range --}}
+                        {{ $campaign->impressions_count }}
                     </td>
                     <td>
-                        {{-- # of interactions in date range --}}
+                        {{ $campaign->interactions_count }}
                     </td>
                     <td>
-                        {{-- # of conversions in date range --}}
+                        {{ $campaign->conversions_count }}
                     </td>
                     <td>
-                        {{-- % conversion rate in date range --}}
+                        {{ round(($campaign->conversions_count / $campaign->impressions_count) * 100, 2) }}%
                     </td>
                 </tr>
                 @endforeach
