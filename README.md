@@ -44,7 +44,7 @@ Your task is to enhance this page to rectify these issues and ensure that the pa
 -   **Code Quality**: Is the code well-organised and easy to understand?
 -   **Performance**: Does the view load in under 300ms when filtered and sorted?
 -   **Functionality**: Does the application meet the requirements, including filtering, ordering, and date range adjustment?
--   **Best Practices**: Are Laravel and PHP best practices followed (e.g., query optimisation, use of Eloquent relationships, Blade templating)?
+-   **Best Practices**: Are Laravel and PHP best practices followed (e.g., query optimisation, use of Eloquent relationships, Blade templating, Unit/Integration/E2E Testing)?
 
 ---
 
